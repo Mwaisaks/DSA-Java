@@ -10,12 +10,12 @@ A set of step by step instructions that are required to solve a given problem or
 6. Traverse
 
 **Characteristics of an Algorithm**
-Unambiguous - clear and concise
-Input - 0 or more
-Output - 1 or more 
-Feasible - with the available resources
-Independent - of the P.L
-Finite - complete after a finite number of steps
+* Unambiguous - clear and concise
+* Input - 0 or more
+* Output - 1 or more 
+* Feasible - with the available resources
+* Independent - of the P.L
+* Finite - complete after a finite number of steps
 
 Algorithms are written in Pseudocode and Flowcharts
 
