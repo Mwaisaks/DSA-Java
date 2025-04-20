@@ -105,12 +105,39 @@ Divide and conquer approach; repeatedly divides the search space in half until t
 **Applications of Arrays**
 Main Advantages; cache friendliness and random access
 
-Storing and accessing data: Allow constant time O(1) access to elements
-Searching: for sorted arrays, we can search an item in O(log n) time. We can also find floor(), ceiling, kth smallest, kth largest etc.
-Matrices: two-dimensional arrays are used for matrices in computations like graph algorithms, image processing.
-Implementing other data structures like stacks, queues
-Dynamic programming: Dynamic programming algorithms often use arrays to store intermediate results of subproblems in order to solve a larger problem.
-Data Buffers: Arrays serve as data buffers and queues, temporarily storing incoming data like network packets, file streams, and database results before processing.
+* Storing and accessing data: Allow constant time O(1) access to elements
+* Searching: for sorted arrays, we can search an item in O(log n) time. We can also find floor(), ceiling, kth smallest, kth largest etc.
+* Matrices: two-dimensional arrays are used for matrices in computations like graph algorithms, image processing.
+* Implementing other data structures like stacks, queues
+* Dynamic programming: Dynamic programming algorithms often use arrays to store intermediate results of subproblems in order to solve a larger problem.
+* Data Buffers: Arrays serve as data buffers and queues, temporarily storing incoming data like network packets, file streams, and database results before processing.
 
 **Advantages of Arrays**
-Efficient and fast access to any element in the collection
+Efficient and fast access to any element in the collection with constant access time.
+Memory efficiency due to contiguous memory allocation.
+Versatility; arrays can store a wide range of data types
+Compatible with most hardware architectures
+
+**Disadvantages of Arrays**
+* Have fixed size
+* Allocating large arrays can lead to memory exhaustion
+* Insertion and deletion is inefficient due to shifting of elements
+* Supports only elements of the same type, limiting their use with complex data types
+* Less flexible and/or adaptable due to fixed size and limited data type support.
+
+**Cache Friendliness in Arrays**
+When data is stored contiguously in memory (like in arrays), the CPU can load entire blocks of memory cache at once.
+
+**Multidimensional Arrays**
+- arrays of arrays
+
+**Time Complexities**
+* Access: O(1)
+* Search: O(n) for unsorted, O(log n) for sorted (binary search)
+* Insertion: O(n) (worst case due to shifting)
+* Deletion: O(n) (worst case due to shifting)
+
+**Dynamic Arrays (ArrayList in Java)**
+* Automatically resizes when full (typically doubles capacity)
+* Amortized O(1) for insertion at end
+* Still maintains O(1) random access
