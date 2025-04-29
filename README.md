@@ -73,3 +73,8 @@ expression.
 ![img.png](img.png)
 
 
+**Searching Algorithms**
+2 most common algorithms
+1. Linear Search
+2. Binary Search
+

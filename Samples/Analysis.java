@@ -14,7 +14,7 @@ public class Analysis {
         int x = 30;
         System.out.println(search(arr, x));
     }
-}y
+}
 
 /*
 Best Case: Constant Time irrespective of input size. This will take place if the element to be searched is on the first index of the given list. So, the number of comparisons, in this case, is 1.
