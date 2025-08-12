@@ -58,6 +58,50 @@ Types of Asymptotic Annotations
 * Big-O Notation - rep the upper bound, provides the worst case.
 * Omega Notation - rep the lower bound of an algorithm, provides the best case
 
+
+### Big-O Notation
+- It is a way to express the upper bound of an algorithm's time or space complexity.
+
+**Importance of Big O-Notation**
+* Big O Notation is important because it helps analyze the efficiency of algorithms. 
+* It provides a way to describe how the runtime or space requirements of an algorithm grow as the input size increases.
+* Helps in understanding the scalability of algorithms and predicting how they will perform as the input size grows.
+* Enables developers to optimize code and improve overall performance.
+
+**Finding the Big-O of an expression**
+* Ignore the lower order terms and consider only highest order term.
+* Ignore the constant associated with the highest order term.
+
+**Common Big-O Notations**
+1. Linear Time Complexity: Big O(n)
+2. Logarithmic Time Complexity: Big O(log n)
+3. Quadratic Time Complexity: Big O(n^2) 
+4. Cubic Time Complexity: Big O(n^3)
+5. Polynomial Time Complexity: Big O(n^k)
+6. Exponential Time Complexity: Big O(2^n)
+7. Factorial Time Complexity: Big O(n!)
+
+#### Time Complexity
+
+
+#### Space Complexity
+Space Complexity != Auxiliary Space
+
+- Auxiliary Space is the extra space or temporary space used by an algorithm.
+- **Space Complexity** of an algorithm is the total space taken by the algorithm with respect to the input size.
+It includes both auxiliary space and space used by input
+
+To estimate the memory requirement we need to focus on two parts:
+
+1. **A fixed part:** 
+It is independent of the input size. 
+It includes memory for instructions (code), constants, variables, etc.
+
+2. **A variable part:** 
+It is dependent on the input size. 
+It includes memory for recursion stack, referenced variables, etc.
+
+
 **Logic Building**
 
 - Creating clear, step-by-step methods to solve problems using simple rules and principles
