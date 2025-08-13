@@ -1,4 +1,5 @@
 It's a linear data structure that follows the **FIFO** (First In First Out) principle.
+
 The first element to be added will be the first to be removed or processed.
 
 **Basic Terminologies**
@@ -58,3 +59,6 @@ Element with largest priority eis popped first.
 4. Maximum size of a queue must be defined prior in case of array implementation.
 
     
+**Note** Array implementation of queue is not used in practice as it is not efficient.
+
+In practice we use either Linked list or circular array implementation of queue.
