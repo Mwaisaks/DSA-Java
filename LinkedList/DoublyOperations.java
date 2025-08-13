@@ -1,4 +1,4 @@
-package LinkedList.Doubly;
+package LinkedList;
 
 class Node {
     int data;
@@ -11,7 +11,7 @@ class Node {
     }
 }
 
-class Insertion {
+class DoublyOperations {
 
     // Forward Traversal
     static void forwardTraversal(Node head){
