@@ -24,7 +24,7 @@ public class ArrayOperations {
                     break;
 
                 case 2:
-                    Insertion();
+                    insertion(arr, );
                     break;
             }
         }

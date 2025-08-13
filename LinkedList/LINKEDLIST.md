@@ -8,28 +8,31 @@ Linked List is a non-linear dat structure that forms a seriies of connected node
 * Tail; The last node point to NULL or nullptr- tail node
 
 Mainly preferred over array due to ease of insertion and deletion.
+
 Like arrays, used to implement other data structures like stack, queue, dequeue
 
-Linked List Operations
+### Linked List Operations
 **Insertion** - adjusting the pointers of the existing nodes to maintain the proper sequence.
 **Deletion** - requires adjusting the pointers of the neighboring nodes to bridge the gap left by the deleted node.
 **Searching** - traverse the list from the head node until the value is found or the end of the list is reached.
 
 **Types of LinkedList**
-Single Linked List - forward navigation only
-Double LInked List - forward and backward navigation
-Circular Linked List - last item contains link to the first element as next and the first element contains link to the last element as previous.
+* Single Linked List - forward navigation only
+* Double LInked List - forward and backward navigation
+* Circular Linked List - last item contains link to the first element as next and the first element contains link to the last element as previous.
 Both Singly Linked List and Doubly Linked List can be made into a circular linked list.
 
-Singly Linked List
-Basic Operations
-**Insertion**: at the beginning, end or specific location
-**Deletion**: at the beginning, end or specific location
-**Traverse**: displays the elements
-**Search**
+### Singly Linked List
 
-1. **Doubly Linked List**
-**Insertion**
+**Basic Operations**
+
+* **Insertion**: at the beginning, end or specific location
+* **Deletion**: at the beginning, end or specific location
+* **Traverse**: displays the elements
+* **Search**
+
+### Doubly Linked List
+1. **Insertion**
 * At the beginning
 * After a given node
 * At the end
@@ -40,12 +43,13 @@ Basic Operations
 * A specific node
 3. **Display**
 
-**Circular Linked List**
+### Circular Linked List
 **Insertion**
 * In an empty list
 * At the beginning of a list
 * At the end of the list
 * In between the nodes
+
 **Deletion**
 * From the beginning of the list
 * From the end of the list
