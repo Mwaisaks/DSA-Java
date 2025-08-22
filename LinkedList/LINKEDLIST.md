@@ -12,9 +12,9 @@ Mainly preferred over array due to ease of insertion and deletion.
 Like arrays, used to implement other data structures like stack, queue, dequeue
 
 ### Linked List Operations
-**Insertion** - adjusting the pointers of the existing nodes to maintain the proper sequence.
-**Deletion** - requires adjusting the pointers of the neighboring nodes to bridge the gap left by the deleted node.
-**Searching** - traverse the list from the head node until the value is found or the end of the list is reached.
+* **Insertion** - adjusting the pointers of the existing nodes to maintain the proper sequence.
+* **Deletion** - requires adjusting the pointers of the neighboring nodes to bridge the gap left by the deleted node.
+* **Searching** - traverse the list from the head node until the value is found or the end of the list is reached.
 
 **Types of LinkedList**
 * Single Linked List - forward navigation only
