@@ -1,4 +1,5 @@
 A stack is a linear data structure that follows LIFO principle; the last element to be inserted is the first to be popped out. 
+
 Both insertion and deletion happen at one end only.
 
 A stack can be implemented by means of Array, Structure, Pointer, and Linked List.
@@ -21,7 +22,7 @@ When the stack is empty it decreases its size. This type is implemented using a 
 A pointer is maintained to the last pushed data on the stack
 
 **Push Operation**
-Adds an item to the stack
+- Adds an item to the stack
 **Algorithm**
 1. Check if the stack is **full**.
 2. If the stack is full **(top == capacity-1)**, then **Stack Overflows** exit.

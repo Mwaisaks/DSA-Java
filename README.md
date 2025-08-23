@@ -24,6 +24,10 @@ Algorithms are written in Pseudocode and Flowcharts
 Efficiency is measured in terms of time and space.
 - determination of the amount of time and space resources required to execute it.
 
+**Two important metrics:**
+* Time Complexity – how execution time grows with input size (O(n), O(log n), etc.).
+* Space Complexity – how much memory the algorithm uses during execution.
+
 In 2 stages:
 1. **Priori Analysis**
 Theoretical Analysis. 
@@ -150,8 +154,12 @@ expression.
 1. Linear Search
 2. Binary Search
 
+***
+**Abstract Data structures**: are higher level data structures built on top of primitive data types and provide more complex and specialized operations.
+e.g arrays, linked lists, stacks, queues, trees and graphs.
 
-
+**Primitive vs Non-Primitive Data Types**
+Primitive data types are the built in types provided by the language
 
 ##### Youtube Takeaways
 **Abstract Data Types**
